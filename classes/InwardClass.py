@@ -1,10 +1,8 @@
 import sql
 from db import fetch_all, get_db_connection
 
-
 class RelatedRecordNotFound(Exception):
     pass
-
 
 class InwardClass:
     def get_all(self):
